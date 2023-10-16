@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+/*---------------ESTILOS GEENERALES-----------------------------*/
+*{
+    padding: 0;;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: 'Mukta', sans-serif;
+}
+img{
+    width: 100%;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-size: 1.1em;
+
+}
+footer{
+    background-color: #7b7b7bc1;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+label{
+    font-size: 1em;
+}
+.video{
+    text-align: center;
+ }
+/*--------------------ESTILOS HEADER Y NAV---------------------------*/
+.header .header-text{
+    font-size: 2em;
+    color: whitesmoke;
+}
+.header{
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    position: absolute;
+    width: 100%;
+   
+}
+.header-nav ul{
+    display: flex;
+    align-items: center;
+}
+.header-nav li{
+    padding-right: 3em;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem;
+}
+.header-nav a:hover{
+    border-bottom: 2px solid #fff;
+}
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+.main-header{
+    height: 200px;
+   text-align: center;
+   border-bottom: 2px solid #656262;
+}
+.main-header h1{
+    padding-top:  70px;
+}
+/*----------------ESTILOS DEL BANNER----------------*/
+.img-container{
+    height: 650px;
+    background-color: #00000048;
+ }
+ .img-container img{
+     position: fixed;
+     width: 100%;;
+     z-index: -10;
+ }
+ 
+/*-------------ESTILOS DEL MAIN/PRINCIPAL-------------------------*/
+.main{
+    width: 100%;
+    background-color: black;
+    color: white
+    
+}
+.m-nosotros{
+    background-color: #fff;
+    color: black;
+    padding: 5%;
+}
+.m-nosotros .information{
+    width: 90%;
+    margin: 50px auto;
+    height: 40%;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.m-nosotros .information li{
+    display: inline;
+    margin: 0 80px 0 0;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.m-nosotros .information li:hover{
+    text-decoration: none;
+}
+.m-nosotros .main-header #new-tt{
+    padding-top: 0;
+}
+/*----------------ESTILOS DE ACUERDO AL USO DEL MAIN-------------------*/
+/*------------------------------INDEX.HTML-------------------------------*/
+.exhibitions{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.exhibitions img{
+    height: 100%;
+}
+.box-container-ex{
+    width:50% ;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2e2e;
+    padding: 20px;
+    margin-left: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+.box-container-ex:hover{
+    color: #000;
+    width: 51%;
+}
+.box-container-ex:hover .text-entry{
+    text-decoration: underline;
+}
+.first-ex .text .fex-color1{
+    color: #4cc4ef;
+}
+.second-ex .text .fex-color2{
+    color: #ec97b5;
+}
+.first-ex:hover{
+    background-color: #4cc4ef; 
+}
+.second-ex:hover{
+    background-color: #ec97b5;
+   
+}
+.first-ex:hover .fex-color1{
+    color: #000;
+}
+.second-ex:hover .fex-color2{
+    color: #000;
+}
+.box-container-ex .text{
+    font-size: .8em;
+    text-align: right;
+}
+.box-container-ex .text .estado{
+    font-size: 0.8em;
+}
+.box-container-ex .text .fecha{
+    padding-top: 120px;
+    font-size: 0.6em;
+}
+.box-container-ex .img{
+    width: 60%;
+}
+.img-main{
+    width: 100%;
+    padding-left: 3em;
+    object-fit: cover;
+    position: relative;
+}
+.second-main .box-container-ex{
+    margin: 20px auto;
+    width: 60%;
+    background-color: #d4d4d4;
+}
+.main .block-title{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 1.5em;
+    transition: .5s;
+}
+.main .block-title:hover{
+    text-decoration: underline;
+    color: #d4d4d4;
+}
+/*-------------------NOSOTROS.HTML-------------------------*/
+.boxes{
+    width: 100%;
+    height: 100%;
+    font-size: .5em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.boxes img{
+    width: 70%;
+    text-align: center;
+}
+.boxes .text {
+    width: 60%;
+    padding-right: 20%;
+    text-align: left;
+}
+.boxes .location{
+    width: 40%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.boxes .text .text-title{
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+.boxes .text p .mark{
+    text-decoration: underline;
+    transition: 1s;
+    cursor: pointer;
+}
+.boxes .text p .mark:hover{
+    text-decoration: none;
+}
+/*--------------ESTILOS VISITAS----------------*/
+.exh-main{
+    padding-top: 150px;
+}
+.exh-main .main-header{
+    border-top: 1px solid #7B7B7B;
+    font-size: 2.5em;
+}
+.exh-main .main-header h1{
+    padding-top: 40px;
+}
+.exh-main .exhibitions{
+    width: 80%;
+    margin: 20px auto;
+    height: 600px;
+    background-color: #2e2e2e;
+}
+.exh-main .exhibitions .text .fex-color1{
+    color: #4cc4ef;
+}
+.exh-main .exhibitions .img{
+    width: 40%;
+    height: 100%;
+    background-image: url("../img/ex1.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+.exh-main .exhibitions {
+    padding: 25px;
+    transition: .4s;
+}
+.exh-main .exhibitions .text .text-entry{
+ font-size: 2em;
+}
+.exh-main .exhibitions .text{
+    text-align: right;
+}
+.exh-main .exhibitions .estado{
+    font-size: 1em;
+}
+.exh-main .exhibitions .fecha{
+    padding-top: 200px;
+    font-size: 1em;
+}
+.exh-main .exhibitions:hover{
+        background-color: #4cc4ef;
+        color: #000;
+}
+.exh-main .exhibitions:hover .text-entry{
+    text-decoration: underline;
+}
+.exh-main .exhibitions:hover .fex-color1{
+    color: #000;
+}
+.exh-main .exhibitions1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.exh-main .exhibitions1 img{
+    height: 100%;
+}
+.exh-main .exhibitions1 .first-ex .fex-color1{
+    color: #14E1B2;
+}
+.exh-main .exhibitions1 .second-ex .fex-color2{
+    color: #EC409D;
+}
+.exh-main .exhibitions1 .second-ex:hover .fex-color2{
+    color: #000;
+}
+.exh-main .exhibitions1 .first-ex:hover .fex-color1{
+    color: #000;
+}
+.exh-main .exhibitions1 .first-ex:hover{
+    background-color: #14E1B2;
+}
+.exh-main .exhibitions1 .second-ex:hover{
+    background-color: #EC409D;
+}
+.exh-main .exhibitions2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.exh-main .exhibitions2 img{
+    height: 100%;
+}
+.exh-main .exhibitions2 .first-ex .fex-color1{
+    color: #F15B4E;
+}
+.exh-main .exhibitions2 .second-ex .fex-color2{
+    color: #5E8AB4;
+}
+
+.exh-main .exhibitions2 .three-ex .fex-color3{
+    color: #5eb465;
+}
+.exh-main .exhibitions2 .first-ex:hover{
+    background-color: #F15B4E;
+}
+.exh-main .exhibitions2 .second-ex:hover{
+    background-color: #5E8AB4;
+}
+.exh-main .exhibitions2 .three-ex:hover{
+    background-color: #5eb465;
+}
+.exh-main .exhibitions2 .first-ex:hover .fex-color1{
+    color: #000;
+}
+.exh-main .exhibitions2 .second-ex:hover .fex-color2{
+    color: #000;
+}
+.exh-main .exhibitions2 .three-ex:hover .fex-color3{
+    color: #000;
+}
+.exh-main .exhibitions2 .text{
+    text-align: left;
+}
+.exh-main .exhibitions2 .fecha{
+    padding-top: 50px;
+    font-size: .6em;
+}
+/*------------ESTILOS ARTE REVOLUCIONARIO---------------*/
+.img-container .tickets{
+    background-color: #000;
+    width: 35%;
+    height: 100%;
+    margin-left: 40px;
+    padding-top: 150px;
+    border: .5px solid #7B7B7B;
+}
+.img-container .tickets .text{
+    color: #fff;
+    text-align: left;
+    padding-right: 50px;
+
+}
+.img-container .tickets .text .title{
+    font-size: 2.1em;
+}
+.img-container .tickets .text .title .fex-color4{
+    color: #4cc4ef;
+}
+.img-container .tickets .text .desc{
+    font-size: 1.2em;
+}
+.img-container .tickets .btn-support-new{
+    width: 80%;
+    height: 10%;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #4cc4ef;
+    font-size: 1.4em; 
+    color: #000;
+    display: block;
+}
+.img-container .tickets .btn-support-new:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+.img-container .tickets .fecha-ex{
+    margin-top: 10px;
+    font-size: .7em;
+}
+.m-arteRev .information{
+    width: 70%;
+    margin:auto;
+    height: 40%;
+    padding: 20px;
+    background-color: #1D1D1D;
+}
+.m-arteRev .information li{
+    display: inline;
+    margin: 0 100px 0 0;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.m-arteRev .information li:hover{
+    text-decoration: none;
+}
+.m-arteRev .boxes .text {
+    width: 60%;
+    height: 900px;
+    padding-right: 10%;
+    margin-left: 70px;
+    text-align: left;
+    
+}
+.m-arteRev .first-ex{
+    width: 40%;
+    height: 100%;
+    padding-right: 10px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+/*--------------------------ESTILOS COLECCION-----------------*/
+.m-colecc .boxes{
+    width: 100%;
+    height: 100%;
+}
+.m-colecc .information{
+    width: 70%;
+    margin:40px auto;
+    height: 40%;
+    padding: 20px;
+    background-color: #1D1D1D;
+}
+.m-colecc .information li{
+    display: inline;
+    margin: 0 100px 0 0;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.m-colecc .information li:hover{
+    text-decoration: none;
+}
+.m-colecc .text{
+    width: 60%;
+    height: 700px;
+    padding-right: 20%;
+    margin-left: 70px;
+    text-align: left;
+}
+.m-colecc .text ul li{
+    list-style: circle;
+    font-size: 2em;
+    text-decoration: underline;
+}
+.m-colecc .text ul li:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.m-colecc .boxes .first-ex{
+    width: 40%;
+    padding-right: 0px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.m-colecc .boxes .first-ex img{
+    width: 100%;
+    height: 100%;
+}
+.m-colecc .boxes .first-ex:hover{
+    background-color: #4b4b4b;
+}
+/*----------------ESTILOS REGISTRO-----------------------*/
+.form-register{
+    width: 70%;
+    max-width: 100%;
+    min-width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f7ffac;
+    position: static;
+   margin: auto;
+    padding: 20px 35px;
+    color: #000;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.form-register .datos-per input{
+    text-align: left;
+    display: flex;
+    padding-left: 0px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+.form-register .quest{
+    font-size: 1.5em;
+}
+.form-register .inputs{
+    width: 100%;
+}
+.form-register p.text-form{
+    font-size: 1.5em;
+    text-align: center;
+}
+.form-register .pais:disabled{
+    background: #c9c9c9;
+}
+.form-register label#bvd{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.form-register input:focus{
+    background-color: #d0d0d0a9;
+}
+.aviso a{
+    color: #656262;
+    text-decoration: underline;
+}
+/*------------ESTILOS LOGIN----------------------*/
+.form-login
+{
+    width: 35%;
+    max-width: 100%;
+    min-width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f7ffac;
+    position: static;
+    transform: translate(90%,25%);
+    padding: 20px 35px;
+    color: #000;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.m-login{
+    background-image: url("../img/img-login.jpg"); 
+    background-position: center; 
+    padding: 10%;
+
+}
+label#bvd{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+input{
+    width:200px;
+    height: 30px;
+    margin:10px;
+}
+input#usuario:focus,input#pwd:focus{
+    width: 220px;
+}
+input#usuario{
+    margin-top: 25px;
+    background-image: url('../img/user.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    border: 1px solid;
+    border-radius: 3px;
+
+}
+input#pwd{
+    background-image: url('../img/pass.png');
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    padding-left: 28px;
+    border: 1px solid;
+    border-radius: 3px;
+
+}
+input#login{
+    cursor: pointer;    
+}
+input#login:hover{
+    background-color: #5AA7F0;
+    border-color: #305375;   
+}
+label#lbl1{
+     cursor: pointer;  
+}
+label#lbl1:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    height: 100%;
+    background-color: #000;
+}
+footer .box-container-ex{
+    margin: auto;
+    width: auto;
+}
+footer .bx-register:hover{
+   color: #fff;
+   width: auto;
+}
+footer .bx-register .btn-support{
+    margin-top: 20px;
+}
+footer .bx-register .btn-support:hover a{
+    color: #fff;
+}
+footer .bx-register .btn-support a{
+    color:#000 ;
+}
+/*-----------------ESTILOS VARIOS---------------*/
+.text p{
+    font-size: 2em;
+}
+.text button a{
+    font-size: 1.4em;
+    color: #7B7B7B;
+}
+.table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.table tr td{
+    padding-left: 3em;
+}
+.img-visitas{
+    height: 550px;
+    background-image: url("../img/img-visitas2.jpg");
+    background-size: contain;
+}
+
+.form .label{
+    font-size: 1.3em;
+    text-align: center;
+}
+.btn-support{
+ width: 30%;
+ height: 25%;
+ font-size: 1.2em;  
+ background-color: #fff; 
+ text-align: center;
+ float: right;
+ cursor: pointer;
+ border: 2px solid black;
+ transition: .5s;
+}
+.btn-support:hover{
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+.raya{
+    margin: 50px 60px;
+    border: 1px solid #737373a4;
+}
+.bx-cont{
+    cursor: pointer;
+}
